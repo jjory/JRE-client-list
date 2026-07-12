@@ -1,24 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-
-const SERVICE_KEYS = [
-  "rent",
-  "buy",
-  "shortTerm",
-  "sell",
-  "management",
-  "office",
-] as const;
-
-// Services 키 → URL 슬러그 매핑
-const SERVICE_SLUGS: Record<(typeof SERVICE_KEYS)[number], string> = {
-  rent: "rent",
-  buy: "buy",
-  shortTerm: "short-term",
-  sell: "sell",
-  management: "management",
-  office: "office",
-};
+import { SERVICES } from "@/lib/site";
 
 export function Footer() {
   const t = useTranslations();
@@ -39,13 +21,13 @@ export function Footer() {
             {t("Nav.services")}
           </p>
           <ul className="space-y-2">
-            {SERVICE_KEYS.map((key) => (
-              <li key={key}>
+            {SERVICES.map((s) => (
+              <li key={s.key}>
                 <Link
-                  href={`/services/${SERVICE_SLUGS[key]}`}
+                  href={`/services/${s.slug}`}
                   className="text-sm text-muted-foreground hover:text-foreground"
                 >
-                  {t(`Services.${key}`)}
+                  {t(`Services.${s.key}`)}
                 </Link>
               </li>
             ))}

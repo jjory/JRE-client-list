@@ -28,10 +28,101 @@
     "en": "English",
     "ja": "日本語"
   },
-  "Home": {
-    "scaffoldNotice": "スキャフォールディング段階です。ホーム画面はステップBで実装します。",
-    "heroTitle": "東京の暮らしはJRE Global Homeから",
-    "heroSubtitle": "外国人のための日本の不動産 — 賃貸からオフィスまでワンストップ。"
+  "Hero": {
+    "title": "東京の暮らしはJRE Global Homeから",
+    "subtitle": "外国人のための日本の不動産 — 賃貸からオフィスまで、多言語でご案内します。",
+    "areaLabel": "エリア",
+    "typeLabel": "種別",
+    "budgetLabel": "予算",
+    "anyArea": "すべてのエリア",
+    "anyType": "すべての種別",
+    "anyBudget": "予算指定なし",
+    "typeApartment": "アパート/マンション",
+    "typeHouse": "一戸建て",
+    "typeShort": "短期賃貸",
+    "budgetLow": "〜15万円",
+    "budgetMid": "15〜30万円",
+    "budgetHigh": "30万円〜",
+    "searchCta": "物件を検索",
+    "searchNote": "検索結果は物件アプリ（list.japan-real.com）で提供されます。"
+  },
+  "ServicesSection": {
+    "heading": "サービス",
+    "subheading": "日本の不動産のすべての段階をワンストップで。",
+    "detailCta": "詳しく見る",
+    "desc": {
+      "rent": "外国人歓迎の物件、毎日更新される賃貸検索。",
+      "buy": "融資・契約・クロージングまで購入の全工程をサポート。",
+      "shortTerm": "家具付き短期滞在、オンライン手続きで簡単に。",
+      "sell": "地域の専門性とマーケティングで安心の売却。",
+      "management": "入居者審査・賃料設定・契約管理を代行。",
+      "office": "法人・オフィス賃貸および登記住所をサポート。"
+    }
+  },
+  "Areas": {
+    "heading": "人気エリア",
+    "subheading": "東京の主要エリアの暮らしと相場ガイド。",
+    "viewCta": "エリアを見る",
+    "names": {
+      "minato": "港区",
+      "shibuya": "渋谷区",
+      "shinjuku": "新宿区",
+      "meguro": "目黒区",
+      "setagaya": "世田谷区",
+      "bunkyo": "文京区"
+    }
+  },
+  "Posts": {
+    "heading": "エリアガイド・生活情報",
+    "subheading": "日本での定住に役立つ実用情報とエリアの話。",
+    "readMore": "続きを読む",
+    "comingSoon": "準備中",
+    "items": {
+      "one": { "category": "エリアガイド", "title": "新宿 vs 渋谷、どこに住む？" },
+      "two": { "category": "生活情報", "title": "日本の電気・ガス・水道 開通完全ガイド" },
+      "three": { "category": "生活情報", "title": "外国人のインターネット開通方法" }
+    }
+  },
+  "Stats": {
+    "heading": "数字で見る信頼",
+    "listingsValue": "20,000+",
+    "listingsLabel": "提携物件",
+    "licensedValue": "宅建士",
+    "licensedLabel": "有資格者在籍",
+    "languagesValue": "3言語",
+    "languagesLabel": "KO・EN・JP対応",
+    "ratingValue": "★ 4.9",
+    "ratingLabel": "お客様評価"
+  },
+  "Contact": {
+    "heading": "お好きなチャネルでご相談",
+    "subheading": "韓国語・英語・日本語で素早く回答します。",
+    "note": "営業時間内に順次回答（日本時間）。",
+    "channels": {
+      "line": "LINEで相談",
+      "whatsapp": "WhatsAppで相談",
+      "kakao": "カカオトークで相談"
+    }
+  },
+  "About": {
+    "heading": "信頼できるパートナー",
+    "body": "JRE Global Homeは東京・新宿のWINBRO LLCが運営します。宅地建物取引士の資格を持つ専門家が、外国人のお客様の賃貸・購入を最初から最後までサポートします。",
+    "license": "宅地建物取引業 · WINBRO LLC（東京・新宿）",
+    "cta": "会社概要を見る",
+    "testimonialsHeading": "お客様の声",
+    "testimonials": {
+      "one": { "quote": "言葉の心配なく東京に定住できました。契約の流れを一つひとつ説明してくれて安心でした。", "author": "K.L.、韓国" },
+      "two": { "quote": "Found a pet-friendly apartment in Minato within a week. Highly recommend.", "author": "M.S.、USA" }
+    }
+  },
+  "Faq": {
+    "heading": "よくある質問",
+    "items": {
+      "one": { "q": "外国人でも日本で家を購入できますか？", "a": "はい。日本では外国人の不動産所有に制限はなく、非居住者でも購入可能です。融資条件は状況に応じてご案内します。" },
+      "two": { "q": "韓国語・英語で相談できますか？", "a": "はい。KO・EN・JPの3言語で、相談から契約までサポートします。" },
+      "three": { "q": "仲介手数料はいくらですか？", "a": "日本の慣例上、賃貸は通常家賃1か月分（+税）、売買は取引額に応じて算定します。事前に明確にご案内します。" },
+      "four": { "q": "どのエリアを扱っていますか？", "a": "東京23区を中心に、首都圏全域の物件を扱っています。" }
+    }
   },
   "Footer": {
     "operatedBy": "運営: WINBRO LLC（東京・新宿）",

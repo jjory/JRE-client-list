@@ -28,10 +28,101 @@
     "en": "English",
     "ja": "日本語"
   },
-  "Home": {
-    "scaffoldNotice": "스캐폴딩 단계입니다. 홈 화면은 단계 B에서 구현됩니다.",
-    "heroTitle": "도쿄 생활의 시작, JRE Global Home",
-    "heroSubtitle": "외국인을 위한 일본 부동산 — 임대부터 오피스까지 한 곳에서."
+  "Hero": {
+    "title": "도쿄 생활의 시작, JRE Global Home",
+    "subtitle": "외국인을 위한 일본 부동산 — 임대부터 오피스까지, 다국어로 안내합니다.",
+    "areaLabel": "지역",
+    "typeLabel": "유형",
+    "budgetLabel": "예산",
+    "anyArea": "전체 지역",
+    "anyType": "전체 유형",
+    "anyBudget": "예산 무관",
+    "typeApartment": "아파트/맨션",
+    "typeHouse": "단독주택",
+    "typeShort": "단기 임대",
+    "budgetLow": "~15만엔",
+    "budgetMid": "15~30만엔",
+    "budgetHigh": "30만엔~",
+    "searchCta": "매물 검색",
+    "searchNote": "검색 결과는 매물 앱(list.japan-real.com)에서 제공됩니다."
+  },
+  "ServicesSection": {
+    "heading": "서비스",
+    "subheading": "일본 부동산의 모든 단계를 한 곳에서.",
+    "detailCta": "자세히 보기",
+    "desc": {
+      "rent": "외국인 친화 매물, 매일 업데이트되는 임대 검색.",
+      "buy": "융자·계약·클로징까지 매매 전 과정 안내.",
+      "shortTerm": "가구 완비 단기 체류, 온라인 절차로 간편하게.",
+      "sell": "현지 전문성과 마케팅으로 안전한 매각.",
+      "management": "임차인 심사·임대료 책정·계약 관리 대행.",
+      "office": "법인·사무실 임대 및 등기 주소 지원."
+    }
+  },
+  "Areas": {
+    "heading": "인기 지역",
+    "subheading": "도쿄 주요 지역별 생활·시세 가이드.",
+    "viewCta": "지역 보기",
+    "names": {
+      "minato": "미나토구",
+      "shibuya": "시부야구",
+      "shinjuku": "신주쿠구",
+      "meguro": "메구로구",
+      "setagaya": "세타가야구",
+      "bunkyo": "분쿄구"
+    }
+  },
+  "Posts": {
+    "heading": "지역가이드 · 생활정보",
+    "subheading": "일본 정착에 필요한 실용 정보와 지역 이야기.",
+    "readMore": "더 읽기",
+    "comingSoon": "준비 중",
+    "items": {
+      "one": { "category": "지역가이드", "title": "신주쿠 vs 시부야, 어디에 살까?" },
+      "two": { "category": "생활정보", "title": "일본 전기·가스·수도 개통 완벽 가이드" },
+      "three": { "category": "생활정보", "title": "외국인 인터넷 개통, 이렇게 하세요" }
+    }
+  },
+  "Stats": {
+    "heading": "숫자로 보는 신뢰",
+    "listingsValue": "20,000+",
+    "listingsLabel": "제휴 매물",
+    "licensedValue": "宅建士",
+    "licensedLabel": "면허 중개사 보유",
+    "languagesValue": "3개 언어",
+    "languagesLabel": "KO · EN · JP 지원",
+    "ratingValue": "★ 4.9",
+    "ratingLabel": "고객 평점"
+  },
+  "Contact": {
+    "heading": "편한 채널로 상담하세요",
+    "subheading": "한국어·영어·일본어로 빠르게 답변드립니다.",
+    "note": "운영시간 내 순차 답변 (일본 시간 기준).",
+    "channels": {
+      "line": "LINE 상담",
+      "whatsapp": "WhatsApp 상담",
+      "kakao": "카카오톡 상담"
+    }
+  },
+  "About": {
+    "heading": "믿을 수 있는 파트너",
+    "body": "JRE Global Home은 도쿄 신주쿠에 위치한 WINBRO LLC가 운영합니다. 일본 부동산 거래 면허(宅建士)를 갖춘 전문가가 외국인 고객의 임대·매매를 처음부터 끝까지 지원합니다.",
+    "license": "宅地建物取引業 · WINBRO LLC (도쿄 신주쿠)",
+    "cta": "회사 소개 보기",
+    "testimonialsHeading": "고객 후기",
+    "testimonials": {
+      "one": { "quote": "언어 걱정 없이 도쿄에 정착했어요. 계약 과정을 하나하나 설명해줘서 든든했습니다.", "author": "K.L., 한국" },
+      "two": { "quote": "Found a pet-friendly apartment in Minato within a week. Highly recommend.", "author": "M.S., USA" }
+    }
+  },
+  "Faq": {
+    "heading": "자주 묻는 질문",
+    "items": {
+      "one": { "q": "외국인도 일본에서 집을 살 수 있나요?", "a": "네. 일본은 외국인의 부동산 소유에 제한이 없으며, 비거주자도 매매가 가능합니다. 융자 조건은 상황에 따라 안내드립니다." },
+      "two": { "q": "한국어/영어로 상담이 되나요?", "a": "네. KO·EN·JP 3개 언어로 상담부터 계약까지 지원합니다." },
+      "three": { "q": "중개 수수료는 얼마인가요?", "a": "일본 관례상 임대는 통상 임대료 1개월분(+세금)이며, 매매는 거래액에 따라 산정됩니다. 사전에 명확히 안내드립니다." },
+      "four": { "q": "어느 지역을 다루나요?", "a": "도쿄 23구를 중심으로 수도권 전역의 매물을 다룹니다." }
+    }
   },
   "Footer": {
     "operatedBy": "운영: WINBRO LLC (도쿄 신주쿠)",

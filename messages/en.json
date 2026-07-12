@@ -28,10 +28,101 @@
     "en": "English",
     "ja": "日本語"
   },
-  "Home": {
-    "scaffoldNotice": "Scaffolding stage. The home screen will be built in Stage B.",
-    "heroTitle": "Your Tokyo living starts with JRE Global Home",
-    "heroSubtitle": "Japan real estate for foreigners — from rentals to offices, all in one place."
+  "Hero": {
+    "title": "Your Tokyo living starts with JRE Global Home",
+    "subtitle": "Japan real estate for foreigners — from rentals to offices, guided in your language.",
+    "areaLabel": "Area",
+    "typeLabel": "Type",
+    "budgetLabel": "Budget",
+    "anyArea": "All areas",
+    "anyType": "All types",
+    "anyBudget": "Any budget",
+    "typeApartment": "Apartment / Mansion",
+    "typeHouse": "House",
+    "typeShort": "Short-term",
+    "budgetLow": "Up to ¥150k",
+    "budgetMid": "¥150k–300k",
+    "budgetHigh": "¥300k+",
+    "searchCta": "Search properties",
+    "searchNote": "Results are served by our listings app (list.japan-real.com)."
+  },
+  "ServicesSection": {
+    "heading": "Services",
+    "subheading": "Every step of Japanese real estate, in one place.",
+    "detailCta": "Learn more",
+    "desc": {
+      "rent": "Foreigner-friendly listings with daily-updated rental search.",
+      "buy": "Guidance through financing, contract and closing.",
+      "shortTerm": "Fully furnished short stays with simple online procedures.",
+      "sell": "Safe selling with local expertise and marketing.",
+      "management": "Tenant screening, pricing and lease management.",
+      "office": "Office leasing and registered-address support for companies."
+    }
+  },
+  "Areas": {
+    "heading": "Popular Areas",
+    "subheading": "Living and market guides for Tokyo's key wards.",
+    "viewCta": "View area",
+    "names": {
+      "minato": "Minato",
+      "shibuya": "Shibuya",
+      "shinjuku": "Shinjuku",
+      "meguro": "Meguro",
+      "setagaya": "Setagaya",
+      "bunkyo": "Bunkyo"
+    }
+  },
+  "Posts": {
+    "heading": "Area Guides & Living Info",
+    "subheading": "Practical info and neighborhood stories for settling in Japan.",
+    "readMore": "Read more",
+    "comingSoon": "Coming soon",
+    "items": {
+      "one": { "category": "Area Guide", "title": "Shinjuku vs Shibuya: where should you live?" },
+      "two": { "category": "Living Info", "title": "The complete guide to electricity, gas & water in Japan" },
+      "three": { "category": "Living Info", "title": "How foreigners can set up home internet" }
+    }
+  },
+  "Stats": {
+    "heading": "Trust in numbers",
+    "listingsValue": "20,000+",
+    "listingsLabel": "Partner listings",
+    "licensedValue": "宅建士",
+    "licensedLabel": "Licensed agents",
+    "languagesValue": "3 languages",
+    "languagesLabel": "KO · EN · JP support",
+    "ratingValue": "★ 4.9",
+    "ratingLabel": "Customer rating"
+  },
+  "Contact": {
+    "heading": "Reach us on your favorite channel",
+    "subheading": "Fast replies in Korean, English and Japanese.",
+    "note": "Replies during business hours (Japan time).",
+    "channels": {
+      "line": "Chat on LINE",
+      "whatsapp": "Chat on WhatsApp",
+      "kakao": "Chat on KakaoTalk"
+    }
+  },
+  "About": {
+    "heading": "A partner you can trust",
+    "body": "JRE Global Home is operated by WINBRO LLC, based in Shinjuku, Tokyo. Our licensed real-estate professionals (宅建士) support foreign clients through renting and buying, from start to finish.",
+    "license": "Licensed real-estate broker · WINBRO LLC (Shinjuku, Tokyo)",
+    "cta": "About the company",
+    "testimonialsHeading": "What clients say",
+    "testimonials": {
+      "one": { "quote": "Settled in Tokyo without language worries. They walked me through every step of the contract.", "author": "K.L., Korea" },
+      "two": { "quote": "Found a pet-friendly apartment in Minato within a week. Highly recommend.", "author": "M.S., USA" }
+    }
+  },
+  "Faq": {
+    "heading": "Frequently asked questions",
+    "items": {
+      "one": { "q": "Can foreigners buy property in Japan?", "a": "Yes. Japan places no restrictions on foreign property ownership, and non-residents can purchase too. Financing terms are advised case by case." },
+      "two": { "q": "Do you offer support in English/Korean?", "a": "Yes. We support you in KO, EN and JP, from first inquiry to signing." },
+      "three": { "q": "How much are the agency fees?", "a": "By Japanese custom, rentals are typically one month's rent (+tax); sales are calculated on the transaction value. We disclose fees clearly upfront." },
+      "four": { "q": "Which areas do you cover?", "a": "We focus on Tokyo's 23 wards and cover listings across the greater Tokyo area." }
+    }
   },
   "Footer": {
     "operatedBy": "Operated by WINBRO LLC (Shinjuku, Tokyo)",
