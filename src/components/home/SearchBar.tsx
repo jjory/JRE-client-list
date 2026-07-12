@@ -4,7 +4,8 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { AREAS, LISTINGS_URL } from "@/lib/site";
 
-// 1차: 검색 시 외부 매물 앱으로 이동. TODO: list.japan-real.com 실제 쿼리 파라미터 스키마 확정 후 매핑 검증.
+// 1차: 검색 시 외부 매물 앱으로 이동. list.japan-real.com은 로그인 전용이라
+// 파라미터가 무의미하므로 조건은 UI로만 유지하고 앱 홈으로 이동. 실제 필터 연동은 API 통합 시.
 export function SearchBar() {
   const t = useTranslations("Hero");
   const tArea = useTranslations("Areas.names");
@@ -14,12 +15,7 @@ export function SearchBar() {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const params = new URLSearchParams();
-    if (area) params.set("area", area);
-    if (type) params.set("type", type);
-    if (budget) params.set("budget", budget);
-    const query = params.toString();
-    window.open(query ? `${LISTINGS_URL}/?${query}` : LISTINGS_URL, "_blank");
+    window.open(LISTINGS_URL, "_blank");
   }
 
   const selectClass =

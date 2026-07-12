@@ -138,8 +138,7 @@
     "subheading": "Fast replies in Korean, English and Japanese.",
     "note": "Replies during business hours (Japan time).",
     "channels": {
-      "line": "Chat on LINE",
-      "whatsapp": "Chat on WhatsApp",
+      "email": "Email us",
       "kakao": "Chat on KakaoTalk"
     }
   },
@@ -161,6 +160,131 @@
       "two": { "q": "Do you offer support in English/Korean?", "a": "Yes. We support you in KO, EN and JP, from first inquiry to signing." },
       "three": { "q": "How much are the agency fees?", "a": "By Japanese custom, rentals are typically one month's rent (+tax); sales are calculated on the transaction value. We disclose fees clearly upfront." },
       "four": { "q": "Which areas do you cover?", "a": "We focus on Tokyo's 23 wards and cover listings across the greater Tokyo area." }
+    }
+  },
+  "ContactPage": {
+    "heading": "Contact us",
+    "subheading": "Reach us by email or KakaoTalk. We reply in Korean, English and Japanese.",
+    "emailLabel": "Email",
+    "kakaoLabel": "KakaoTalk channel",
+    "hours": "Hours: weekdays 10:00–18:00 (Japan time)",
+    "responseNote": "We reply in order during business hours.",
+    "companyLine": "WINBRO LLC · Shinjuku, Tokyo"
+  },
+  "AboutPage": {
+    "heading": "About us",
+    "lead": "JRE Global Home is a foreigner-focused real-estate service operated by WINBRO LLC in Shinjuku, Tokyo. We guide you through finding a home in Japan from start to finish, without language or system barriers.",
+    "companyHeading": "Company information",
+    "labelCompany": "Company",
+    "valueCompany": "WINBRO LLC",
+    "labelBusiness": "License",
+    "valueBusiness": "Licensed real-estate broker (宅地建物取引業)",
+    "labelLocation": "Location",
+    "valueLocation": "Shinjuku, Tokyo",
+    "labelLanguages": "Languages",
+    "valueLanguages": "한국어 · English · 日本語",
+    "valuesHeading": "Our promise",
+    "values": {
+      "one": { "title": "No language worries", "body": "Support in three languages, from inquiry to contract." },
+      "two": { "title": "Transparent costs", "body": "Fees and initial costs disclosed clearly upfront." },
+      "three": { "title": "Properly licensed", "body": "Handled directly by licensed professionals (宅建士)." }
+    }
+  },
+  "AreaDetail": {
+    "backToAreas": "← All areas",
+    "highlightsHeading": "Area highlights",
+    "listingsCta": "See listings in this area",
+    "items": {
+      "minato": {
+        "intro": "Tokyo's premier residential district, home to embassies and global firms. Includes popular Roppongi, Azabu and Shirokane.",
+        "highlights": ["Near foreign communities and international schools", "Many luxury tower residences", "Excellent transport and shopping"]
+      },
+      "shibuya": {
+        "intro": "A hub of shopping and culture with dense IT presence — a lively mix of residential and commercial.",
+        "highlights": ["Stylish neighborhoods like Daikanyama and Ebisu", "Close to startups and creative jobs", "Rich nightlife and amenities"]
+      },
+      "shinjuku": {
+        "intro": "A transport hub and home to JRE's head office, where offices and homes coexist with superb access.",
+        "highlights": ["Japan's busiest hub station, nationwide access", "Wide range of sizes and budgets", "Green spaces like Shinjuku Gyoen"]
+      },
+      "meguro": {
+        "intro": "A calm, refined residential area famous for the Nakameguro cherry blossoms — popular with families and couples.",
+        "highlights": ["Popular Nakameguro and Jiyugaoka", "Cafes and boutiques", "Quiet living environment"]
+      },
+      "setagaya": {
+        "intro": "Tokyo's most populous ward, with spacious neighborhoods and parks — great for families settling in.",
+        "highlights": ["Characterful Sangenjaya and Shimokitazawa", "Spacious rentals at reasonable rates", "Parks and schools for families"]
+      },
+      "bunkyo": {
+        "intro": "A center of education and academia including the University of Tokyo — quiet and safe, popular with students and families.",
+        "highlights": ["Prestigious school districts and universities", "Safe and calm atmosphere", "Culture and greenery like Koishikawa Korakuen"]
+      }
+    }
+  },
+  "GuidePage": {
+    "heading": "Living Info",
+    "subheading": "Everything you need to set up daily life when starting out in Japan.",
+    "backToGuide": "← All living info",
+    "stepsHeading": "Steps",
+    "readMore": "Read more",
+    "items": {
+      "electricity": {
+        "title": "Electricity setup",
+        "intro": "Apply to your power company to start service on your move-in date — easily done online or by phone.",
+        "steps": ["Choose and apply to a power company", "Enter move-in date and account details", "Flip the breaker and start using"]
+      },
+      "gas": {
+        "title": "Gas setup",
+        "intro": "Gas requires an attended activation for safety — book before you move in.",
+        "steps": ["Book activation with the gas company", "Confirm the appointment", "Technician visits and activates"]
+      },
+      "water": {
+        "title": "Water setup",
+        "intro": "Apply to the water bureau to start service — usually no attendance needed.",
+        "steps": ["Find your local water bureau", "Apply to start service", "Open the stopcock and use"]
+      },
+      "internet": {
+        "title": "Internet setup",
+        "intro": "After choosing a line and provider, installation may need booking — apply with plenty of lead time.",
+        "steps": ["Choose a line and plan", "Book the installation", "Set up the router and connect"]
+      },
+      "bank": {
+        "title": "Opening a bank account",
+        "intro": "Open an account with your residence card and seal — needed for salary and rent transfers.",
+        "steps": ["Prepare documents (residence card, etc.)", "Visit the bank and apply", "Receive passbook and card"]
+      },
+      "mobile": {
+        "title": "Mobile phone setup",
+        "intro": "Sign up with a carrier or a low-cost SIM (格安SIM). ID and a payment method are required.",
+        "steps": ["Choose a carrier and plan", "Prepare residence card and payment", "Receive SIM and activate"]
+      }
+    }
+  },
+  "BlogPage": {
+    "heading": "Blog",
+    "subheading": "The JRE blog covering area guides and living info.",
+    "backToBlog": "← All posts",
+    "comingSoonNote": "This post is coming soon and will be updated with full content.",
+    "readMore": "Read more",
+    "items": {
+      "shinjukuVsShibuya": {
+        "category": "Area Guide",
+        "title": "Shinjuku vs Shibuya: where should you live?",
+        "excerpt": "Comparing two popular areas by transport, price and vibe.",
+        "body": "Shinjuku is a transport hub with nationwide access, while Shibuya offers a trendy atmosphere and proximity to IT and creative jobs. Choose based on your budget and lifestyle."
+      },
+      "utilitiesGuide": {
+        "category": "Living Info",
+        "title": "The complete guide to electricity, gas & water in Japan",
+        "excerpt": "The utility setup order you must know before moving in.",
+        "body": "Gas needs an attended activation, so book ahead; electricity and water can be started simply online. Applying ahead of your move-in date means no trouble from day one."
+      },
+      "internetForForeigners": {
+        "category": "Living Info",
+        "title": "How foreigners can set up home internet",
+        "excerpt": "Step by step, from choosing a line to booking installation.",
+        "body": "Decide on a line and provider first; if installation is needed, slots can fill up, so apply early. For short stays, a home router with no installation is a good option."
+      }
     }
   },
   "Footer": {

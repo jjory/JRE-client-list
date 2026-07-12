@@ -28,23 +28,55 @@ export const AREAS = [
   { key: "bunkyo", slug: "bunkyo" },
 ] as const;
 
-// 상담 채널 — TODO: 실제 계정/번호로 교체 (LINE, WhatsApp, KakaoTalk)
+// 상담 연락처 (실제 값)
+export const CONTACT = {
+  email: "japan@win-bro.com",
+  // 카카오톡 채널 ID "japanreal" — TODO: 정확한 채널 공개 URL 확인 필요
+  kakaoId: "japanreal",
+  kakaoUrl: "https://pf.kakao.com/_japanreal",
+} as const;
+
+// 상담 채널 버튼 (이메일 + 카카오톡). LINE/WhatsApp은 계정 확보 시 추가.
 export const CONTACT_CHANNELS = [
   {
-    key: "line",
-    href: "https://line.me/R/ti/p/@japanreal",
-    color: "#06C755",
-  },
-  {
-    key: "whatsapp",
-    href: "https://wa.me/818000000000",
-    color: "#25D366",
+    key: "email",
+    href: `mailto:${CONTACT.email}`,
+    color: "#2563eb",
   },
   {
     key: "kakao",
-    href: "https://pf.kakao.com/_japanreal",
+    href: CONTACT.kakaoUrl,
     color: "#FEE500",
   },
 ] as const;
 
 export type ContactChannelKey = (typeof CONTACT_CHANNELS)[number]["key"];
+
+// 생활정보(생활 셋업) 토픽 — 콘텐츠는 후속 교체
+export const GUIDE_TOPICS = [
+  { key: "electricity", slug: "electricity" },
+  { key: "gas", slug: "gas" },
+  { key: "water", slug: "water" },
+  { key: "internet", slug: "internet" },
+  { key: "bank", slug: "bank" },
+  { key: "mobile", slug: "mobile" },
+] as const;
+
+export function getGuideTopicBySlug(slug: string) {
+  return GUIDE_TOPICS.find((g) => g.slug === slug);
+}
+
+// 블로그 포스트(플레이스홀더) — 후속 CMS/MDX로 대체
+export const BLOG_POSTS = [
+  { key: "shinjukuVsShibuya", slug: "shinjuku-vs-shibuya" },
+  { key: "utilitiesGuide", slug: "utilities-setup-guide" },
+  { key: "internetForForeigners", slug: "internet-for-foreigners" },
+] as const;
+
+export function getBlogPostBySlug(slug: string) {
+  return BLOG_POSTS.find((p) => p.slug === slug);
+}
+
+export function getAreaBySlug(slug: string) {
+  return AREAS.find((a) => a.slug === slug);
+}
