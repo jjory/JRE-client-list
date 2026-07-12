@@ -1,0 +1,40 @@
+{
+  "Metadata": {
+    "title": "JRE Global Home — 外国人のための日本の不動産",
+    "description": "賃貸・購入・短期・売却・管理・オフィスまで。東京の不動産をKO/EN/JPで案内するJRE Global Home。"
+  },
+  "Nav": {
+    "home": "ホーム",
+    "services": "サービス",
+    "areas": "エリアガイド",
+    "guide": "生活情報",
+    "blog": "ブログ",
+    "about": "会社概要",
+    "contact": "相談",
+    "listings": "物件を見る",
+    "consultCta": "相談する"
+  },
+  "Services": {
+    "rent": "賃貸",
+    "buy": "購入",
+    "shortTerm": "短期",
+    "sell": "売却",
+    "management": "管理",
+    "office": "オフィス"
+  },
+  "Language": {
+    "label": "言語",
+    "ko": "한국어",
+    "en": "English",
+    "ja": "日本語"
+  },
+  "Home": {
+    "scaffoldNotice": "スキャフォールディング段階です。ホーム画面はステップBで実装します。",
+    "heroTitle": "東京の暮らしはJRE Global Homeから",
+    "heroSubtitle": "外国人のための日本の不動産 — 賃貸からオフィスまでワンストップ。"
+  },
+  "Footer": {
+    "operatedBy": "運営: WINBRO LLC（東京・新宿）",
+    "rights": "© {year} JRE Global Home"
+  }
+}

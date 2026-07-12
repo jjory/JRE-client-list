@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/*
+ * 임시 브랜드 팔레트 (GTM 가이드 확정 전) — 확정 시 이 블록만 교체.
+ * JRE: 신뢰감 있는 딥 네이비 + 포인트 앰버.
+ */
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --muted-foreground: #52607a;
+  --brand: #12385f; /* deep navy */
+  --brand-foreground: #ffffff;
+  --brand-muted: #eaf1f8; /* navy tint */
+  --accent: #e8a13a; /* amber */
+  --border: #e2e8f0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-brand-muted: var(--brand-muted);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0f1a;
+    --foreground: #e8edf5;
+    --muted-foreground: #9aa8bf;
+    --brand: #4a90d9;
+    --brand-foreground: #0a0f1a;
+    --brand-muted: #142235;
+    --accent: #f0b657;
+    --border: #1e293b;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}

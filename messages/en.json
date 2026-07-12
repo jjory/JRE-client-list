@@ -1,0 +1,40 @@
+{
+  "Metadata": {
+    "title": "JRE Global Home — Japan Real Estate for Foreigners",
+    "description": "Rent, buy, short-term, sell, management and office. Tokyo real estate guided in KO/EN/JP by JRE Global Home."
+  },
+  "Nav": {
+    "home": "Home",
+    "services": "Services",
+    "areas": "Area Guide",
+    "guide": "Living Info",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "listings": "Listings",
+    "consultCta": "Get in touch"
+  },
+  "Services": {
+    "rent": "Rent",
+    "buy": "Buy",
+    "shortTerm": "Short-term",
+    "sell": "Sell",
+    "management": "Management",
+    "office": "Office"
+  },
+  "Language": {
+    "label": "Language",
+    "ko": "한국어",
+    "en": "English",
+    "ja": "日本語"
+  },
+  "Home": {
+    "scaffoldNotice": "Scaffolding stage. The home screen will be built in Stage B.",
+    "heroTitle": "Your Tokyo living starts with JRE Global Home",
+    "heroSubtitle": "Japan real estate for foreigners — from rentals to offices, all in one place."
+  },
+  "Footer": {
+    "operatedBy": "Operated by WINBRO LLC (Shinjuku, Tokyo)",
+    "rights": "© {year} JRE Global Home"
+  }
+}
