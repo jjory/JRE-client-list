@@ -14,6 +14,10 @@ export const SERVICES = [
 
 export type ServiceKey = (typeof SERVICES)[number]["key"];
 
+export function getServiceBySlug(slug: string) {
+  return SERVICES.find((s) => s.slug === slug);
+}
+
 // 도쿄 인기 지역 (벤치마크 e-housing 참고)
 export const AREAS = [
   { key: "minato", slug: "minato" },

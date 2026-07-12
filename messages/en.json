@@ -59,6 +59,45 @@
       "office": "Office leasing and registered-address support for companies."
     }
   },
+  "ServiceDetail": {
+    "featuresHeading": "What you get",
+    "processHeading": "How it works",
+    "ctaContact": "Get in touch",
+    "ctaListings": "Browse listings",
+    "backToServices": "← All services",
+    "items": {
+      "rent": {
+        "tagline": "Renting with confidence, even as a foreigner",
+        "intro": "Guarantors, upfront costs, language barriers — we clear the hurdles of renting as a foreigner and match you with a home from daily-updated listings.",
+        "features": ["Filter by foreigner-friendly, pet-friendly and more", "Guidance on guarantor companies and initial costs", "Contracts explained in your language"]
+      },
+      "buy": {
+        "tagline": "Buying Japanese property, start to finish",
+        "intro": "Non-residents can buy property in Japan too. We guide you through selection, financing, contract, registration and closing.",
+        "features": ["Eligibility and financing consultation", "Important-matters explanation (重説) in your language", "Registration and tax partner referrals"]
+      },
+      "shortTerm": {
+        "tagline": "Furnished short stays",
+        "intro": "Fully furnished short-term rentals for business trips, study, or while preparing to relocate — contracted easily online.",
+        "features": ["Furniture and appliances included", "Monthly contracts", "Remote online signing"]
+      },
+      "sell": {
+        "tagline": "Sell safely and quickly",
+        "intro": "We support your sale with local market analysis and multilingual marketing — remote selling for non-resident owners included.",
+        "features": ["Free valuation", "Multilingual listing marketing", "Remote sale and remittance support"]
+      },
+      "management": {
+        "tagline": "Property management you can trust",
+        "intro": "From tenant sourcing and screening to rent collection and restoration, we manage your property on your behalf.",
+        "features": ["Tenant sourcing and screening", "Rent collection and settlement", "Emergency response and restoration"]
+      },
+      "office": {
+        "tagline": "Office and corporate leasing",
+        "intro": "Office space and registered addresses for companies entering Japan, with company-formation partners on hand.",
+        "features": ["Office and SOHO leasing", "Registered address", "Company-formation partner referrals"]
+      }
+    }
+  },
   "Areas": {
     "heading": "Popular Areas",
     "subheading": "Living and market guides for Tokyo's key wards.",
