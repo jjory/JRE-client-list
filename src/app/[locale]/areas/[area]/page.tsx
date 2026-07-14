@@ -68,7 +68,7 @@ export default async function AreaDetailPage({
         <ul className="mt-4 space-y-3">
           {highlights.map((h, i) => (
             <li key={i} className="flex gap-3 text-foreground">
-              <span aria-hidden className="mt-1 font-bold text-brand">
+              <span aria-hidden className="mt-1 font-bold text-accent">
                 ✓
               </span>
               <span>{h}</span>

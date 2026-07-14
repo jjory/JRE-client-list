@@ -17,7 +17,9 @@ export function TrustStats() {
         <dl className="grid grid-cols-2 gap-8 text-center lg:grid-cols-4">
           {STATS.map((s) => (
             <div key={s.value}>
-              <dd className="text-3xl font-bold sm:text-4xl">{t(s.value)}</dd>
+              <dd className="text-3xl font-bold text-accent sm:text-4xl">
+                {t(s.value)}
+              </dd>
               <dt className="mt-1 text-sm text-brand-foreground/80">
                 {t(s.label)}
               </dt>

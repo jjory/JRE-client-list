@@ -40,7 +40,7 @@ export const CONTACT_CHANNELS = [
   {
     key: "email",
     href: `mailto:${CONTACT.email}`,
-    color: "#2563eb",
+    color: "#c2a15c",
   },
   {
     key: "kakao",

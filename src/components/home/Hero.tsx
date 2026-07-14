@@ -6,8 +6,8 @@ export function Hero() {
 
   return (
     <section className="relative overflow-hidden bg-brand text-brand-foreground">
-      {/* 배경 그라디언트 (임시 팔레트) */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand to-[#0b2540]" />
+      {/* 배경 그라디언트 (에스프레소 톤) */}
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand to-[#16130e]" />
       <div className="relative mx-auto max-w-6xl px-6 py-20 sm:py-28">
         <h1 className="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">
           {t("title")}

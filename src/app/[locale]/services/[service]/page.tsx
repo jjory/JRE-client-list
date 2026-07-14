@@ -74,7 +74,7 @@ export default async function ServiceDetailPage({
         <ul className="mt-4 space-y-3">
           {features.map((f, i) => (
             <li key={i} className="flex gap-3 text-foreground">
-              <span aria-hidden className="mt-1 font-bold text-brand">
+              <span aria-hidden className="mt-1 font-bold text-accent">
                 ✓
               </span>
               <span>{f}</span>

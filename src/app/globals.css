@@ -1,18 +1,19 @@
 @import "tailwindcss";
 
 /*
- * 임시 브랜드 팔레트 (GTM 가이드 확정 전) — 확정 시 이 블록만 교체.
- * JRE: 신뢰감 있는 딥 네이비 + 포인트 앰버.
+ * 브랜드 팔레트 — BI(금박 로고 + 크림 종이 + 다크 브라운) 기반.
+ * 확정 시 이 블록만 교체.
+ * JRE: 에스프레소 브라운 + 샴페인 골드 + 웜 아이보리.
  */
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a;
-  --muted-foreground: #52607a;
-  --brand: #12385f; /* deep navy */
-  --brand-foreground: #ffffff;
-  --brand-muted: #eaf1f8; /* navy tint */
-  --accent: #e8a13a; /* amber */
-  --border: #e2e8f0;
+  --background: #fbf9f4; /* warm ivory */
+  --foreground: #211d18; /* espresso ink */
+  --muted-foreground: #6e6558; /* warm taupe */
+  --brand: #241f1a; /* espresso brown */
+  --brand-foreground: #f7f2e7; /* cream */
+  --brand-muted: #f2ebdc; /* champagne tint */
+  --accent: #c2a15c; /* champagne gold */
+  --border: #e7decf;
 }
 
 @theme inline {
@@ -30,14 +31,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0f1a;
-    --foreground: #e8edf5;
-    --muted-foreground: #9aa8bf;
-    --brand: #4a90d9;
-    --brand-foreground: #0a0f1a;
-    --brand-muted: #142235;
-    --accent: #f0b657;
-    --border: #1e293b;
+    --background: #16130e; /* deep espresso */
+    --foreground: #efe9dc;
+    --muted-foreground: #a99e8c;
+    --brand: #26201a; /* panel, slightly lighter than bg */
+    --brand-foreground: #f7f2e7;
+    --brand-muted: #221d16;
+    --accent: #cba867; /* brighter gold for dark */
+    --border: #2c261e;
   }
 }
 
