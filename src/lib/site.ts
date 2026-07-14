@@ -31,9 +31,8 @@ export const AREAS = [
 // 상담 연락처 (실제 값)
 export const CONTACT = {
   email: "japan@win-bro.com",
-  // 카카오톡 채널 ID "japanreal" — TODO: 정확한 채널 공개 URL 확인 필요
   kakaoId: "japanreal",
-  kakaoUrl: "https://pf.kakao.com/_japanreal",
+  kakaoUrl: "https://pf.kakao.com/_xjxiuNn/chat",
 } as const;
 
 // 상담 채널 버튼 (이메일 + 카카오톡). LINE/WhatsApp은 계정 확보 시 추가.
